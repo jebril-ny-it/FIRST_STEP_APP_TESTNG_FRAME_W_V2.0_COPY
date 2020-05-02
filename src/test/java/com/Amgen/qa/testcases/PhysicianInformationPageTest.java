@@ -52,17 +52,9 @@ public class PhysicianInformationPageTest extends TestBase {
 		cardInformationPage = eligibilityPage.clickOnVerifySubmitBtn();
 		cardInformationPage.clickOnpg2RadioBtn();
 		patientInformationPage = cardInformationPage.continuePge2Btm();
+		
 
-		patientInformationPage.clickongenderBtn();
-		patientInformationPage.clickbirthdayfield();
-		patientInformationPage.fillOutPatientInformation("me", "u", "098765424", "123 5th ave", "brooklyn", "11213",
-				"1236265252", "jack@yahoo.com");
-		patientInformationPage.clickOnSSNBoxToActivate();
-		Thread.sleep(4000);
-		patientInformationPage.clickstateDropDown();
-		patientInformationPage.clickOnConcentBtn();
-		patientInformationPage.clickOnContinuePIpage();
-
+	
 	}
 
 	@DataProvider
@@ -75,6 +67,8 @@ public class PhysicianInformationPageTest extends TestBase {
 	public void phisciansinformationPageTest(String DoctorsFirstName, String DoctorsLastName, String PracticeName,
 			String DoctorStreetAddress, String City, String PhoneNumber, String ZipCode) {
 
+		
+		
 		physicianInformationPage.fillOutDoctorInformation(DoctorsFirstName, DoctorsLastName, PracticeName,
 				DoctorStreetAddress, City, PhoneNumber, ZipCode);
 

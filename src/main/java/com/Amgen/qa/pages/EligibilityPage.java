@@ -50,6 +50,11 @@ public class EligibilityPage extends TestBase {
 		radioNoBtnQ5.click();
 	}
 
+	public void fillOutEligibilityQuestion() {
+		radioyesBtnQ1.click();
+		radioYesBtnQ2.click();
+		
+	}
 	public CardInformationPage clickOnVerifySubmitBtn() {
 		verifySubmitBtn.click();
 		return new CardInformationPage();

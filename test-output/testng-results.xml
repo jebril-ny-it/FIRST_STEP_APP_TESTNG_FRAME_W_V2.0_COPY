@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Amgen application Test Automation Test Suite" duration-ms="59626" started-at="2020-04-27T05:13:03 EDT" finished-at="2020-04-27T05:14:03 EDT">
+  <suite name="Default suite" duration-ms="65579" started-at="2020-05-01T00:01:39 EDT" finished-at="2020-05-01T00:02:45 EDT">
     <groups>
     </groups>
-    <test name="Amgen Application Test Cases" duration-ms="59626" started-at="2020-04-27T05:13:03 EDT" finished-at="2020-04-27T05:14:03 EDT">
+    <test name="Default test" duration-ms="65579" started-at="2020-05-01T00:01:39 EDT" finished-at="2020-05-01T00:02:45 EDT">
       <class name="com.Amgen.qa.testcases.PatientInformationPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.Amgen.qa.testcases.PatientInformationPageTest@49c43f4e]" name="setup" is-config="true" duration-ms="7091" started-at="2020-04-27T05:13:04 EDT" finished-at="2020-04-27T05:13:11 EDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Amgen.qa.testcases.PatientInformationPageTest@49c43f4e]" name="setup" is-config="true" duration-ms="7350" started-at="2020-05-01T00:01:39 EDT" finished-at="2020-05-01T00:01:47 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="patientInformationPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Amgen.qa.testcases.PatientInformationPageTest@49c43f4e]" name="patientInformationPageTest" duration-ms="6862" started-at="2020-04-27T05:13:11 EDT" data-provider="getPatientTestData" finished-at="2020-04-27T05:13:18 EDT">
+        <test-method status="PASS" signature="patientInformationPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Amgen.qa.testcases.PatientInformationPageTest@49c43f4e]" name="patientInformationPageTest" duration-ms="6928" started-at="2020-05-01T00:01:47 EDT" data-provider="getPatientTestData" finished-at="2020-05-01T00:01:54 EDT">
           <params>
             <param index="0">
               <value>
@@ -92,15 +92,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- patientInformationPageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Amgen.qa.testcases.PatientInformationPageTest@49c43f4e]" name="tearDown" is-config="true" duration-ms="580" started-at="2020-04-27T05:13:18 EDT" finished-at="2020-04-27T05:13:18 EDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Amgen.qa.testcases.PatientInformationPageTest@49c43f4e]" name="tearDown" is-config="true" duration-ms="578" started-at="2020-05-01T00:01:54 EDT" finished-at="2020-05-01T00:01:54 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.Amgen.qa.testcases.PatientInformationPageTest@49c43f4e]" name="setup" is-config="true" duration-ms="8304" started-at="2020-04-27T05:13:18 EDT" finished-at="2020-04-27T05:13:27 EDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Amgen.qa.testcases.PatientInformationPageTest@49c43f4e]" name="setup" is-config="true" duration-ms="8458" started-at="2020-05-01T00:01:54 EDT" finished-at="2020-05-01T00:02:03 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="patientInformationPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Amgen.qa.testcases.PatientInformationPageTest@49c43f4e]" name="patientInformationPageTest" duration-ms="6826" started-at="2020-04-27T05:13:27 EDT" data-provider="getPatientTestData" finished-at="2020-04-27T05:13:33 EDT">
+        <test-method status="PASS" signature="patientInformationPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Amgen.qa.testcases.PatientInformationPageTest@49c43f4e]" name="patientInformationPageTest" duration-ms="11714" started-at="2020-05-01T00:02:03 EDT" data-provider="getPatientTestData" finished-at="2020-05-01T00:02:15 EDT">
           <params>
             <param index="0">
               <value>
@@ -181,15 +181,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- patientInformationPageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Amgen.qa.testcases.PatientInformationPageTest@49c43f4e]" name="tearDown" is-config="true" duration-ms="577" started-at="2020-04-27T05:13:33 EDT" finished-at="2020-04-27T05:13:34 EDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Amgen.qa.testcases.PatientInformationPageTest@49c43f4e]" name="tearDown" is-config="true" duration-ms="578" started-at="2020-05-01T00:02:15 EDT" finished-at="2020-05-01T00:02:15 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.Amgen.qa.testcases.PatientInformationPageTest@49c43f4e]" name="setup" is-config="true" duration-ms="7626" started-at="2020-04-27T05:13:34 EDT" finished-at="2020-04-27T05:13:42 EDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Amgen.qa.testcases.PatientInformationPageTest@49c43f4e]" name="setup" is-config="true" duration-ms="7843" started-at="2020-05-01T00:02:15 EDT" finished-at="2020-05-01T00:02:23 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="patientInformationPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Amgen.qa.testcases.PatientInformationPageTest@49c43f4e]" name="patientInformationPageTest" duration-ms="6677" started-at="2020-04-27T05:13:42 EDT" data-provider="getPatientTestData" finished-at="2020-04-27T05:13:48 EDT">
+        <test-method status="PASS" signature="patientInformationPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Amgen.qa.testcases.PatientInformationPageTest@49c43f4e]" name="patientInformationPageTest" duration-ms="6660" started-at="2020-05-01T00:02:23 EDT" data-provider="getPatientTestData" finished-at="2020-05-01T00:02:30 EDT">
           <params>
             <param index="0">
               <value>
@@ -270,15 +270,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- patientInformationPageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Amgen.qa.testcases.PatientInformationPageTest@49c43f4e]" name="tearDown" is-config="true" duration-ms="582" started-at="2020-04-27T05:13:48 EDT" finished-at="2020-04-27T05:13:49 EDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Amgen.qa.testcases.PatientInformationPageTest@49c43f4e]" name="tearDown" is-config="true" duration-ms="580" started-at="2020-05-01T00:02:30 EDT" finished-at="2020-05-01T00:02:30 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.Amgen.qa.testcases.PatientInformationPageTest@49c43f4e]" name="setup" is-config="true" duration-ms="6678" started-at="2020-04-27T05:13:49 EDT" finished-at="2020-04-27T05:13:55 EDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Amgen.qa.testcases.PatientInformationPageTest@49c43f4e]" name="setup" is-config="true" duration-ms="6770" started-at="2020-05-01T00:02:30 EDT" finished-at="2020-05-01T00:02:37 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="patientInformationPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Amgen.qa.testcases.PatientInformationPageTest@49c43f4e]" name="patientInformationPageTest" duration-ms="6782" started-at="2020-04-27T05:13:55 EDT" data-provider="getPatientTestData" finished-at="2020-04-27T05:14:02 EDT">
+        <test-method status="PASS" signature="patientInformationPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Amgen.qa.testcases.PatientInformationPageTest@49c43f4e]" name="patientInformationPageTest" duration-ms="7079" started-at="2020-05-01T00:02:37 EDT" data-provider="getPatientTestData" finished-at="2020-05-01T00:02:44 EDT">
           <params>
             <param index="0">
               <value>
@@ -359,11 +359,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- patientInformationPageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Amgen.qa.testcases.PatientInformationPageTest@49c43f4e]" name="tearDown" is-config="true" duration-ms="580" started-at="2020-04-27T05:14:02 EDT" finished-at="2020-04-27T05:14:03 EDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Amgen.qa.testcases.PatientInformationPageTest@49c43f4e]" name="tearDown" is-config="true" duration-ms="579" started-at="2020-05-01T00:02:44 EDT" finished-at="2020-05-01T00:02:45 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.Amgen.qa.testcases.PatientInformationPageTest -->
-    </test> <!-- Amgen Application Test Cases -->
-  </suite> <!-- Amgen application Test Automation Test Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

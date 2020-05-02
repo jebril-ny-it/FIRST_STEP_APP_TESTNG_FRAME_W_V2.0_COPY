@@ -66,6 +66,7 @@ public class PatientInformationPageTest extends TestBase {
 		patientInformationPage.clickOnConcentBtn();
 		patientInformationPage.clickOnContinuePIpage();
 		
+		
 		//PHYSIXIAN PAGE TEST STARTS HERE
 		patientInformationPage.fillOutDoctorInformation(DoctorsFirstName, DoctorsLastName, PracticeName,
 				DoctorStreetAddress, City, PhoneNumber, ZipCode);
